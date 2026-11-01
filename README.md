@@ -96,9 +96,3 @@ copy running-config startup-config
 ```
 
 ---
-
-### **Q3: Was remote access via SSH to the R1 Loopback interface successful (both IPv4 and IPv6)?**
-> **Answer:** Yes, connecting via SSH using username `SSHadmin` and password `55Hadm!n2020` to both `10.0.0.1` and `2001:db8:acad:2::1` granted secure command-line access to router R1.
-
-### **Q4: Why is the Telnet protocol considered to be a security risk?**
-> **Answer:** Telnet transmits all communication, including usernames and passwords, in **cleartext** (unencrypted) across the network. Anyone listening with a packet sniffer (e.g., Wireshark) can capture sensitive credentials. **SSH (Secure Shell)** encrypts all management traffic, preventing unauthorized interception.
