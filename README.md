@@ -97,14 +97,6 @@ copy running-config startup-config
 
 ---
 
-## ❓ Lab Reflection & Assessment Questions
-
-### **Q1: What would be the result of reloading the router prior to completing the `copy running-config startup-config` command?**
-> **Answer:** All changes made during the configuration session are stored in RAM (`running-config`). Reloading the router without saving would cause all uncommitted configuration changes to be permanently lost, and the router would boot up with whatever was previously saved in NVRAM (`startup-config`).
-
-### **Q2: Were the pings from PC-A to the IPv4 and IPv6 addresses of Server successful?**
-> **Answer:** Yes, all pings to both `192.168.0.10` (IPv4) and `2001:db8:acad::10` (IPv6) were successful after activating the interfaces on router R1.
-
 ### **Q3: Was remote access via SSH to the R1 Loopback interface successful (both IPv4 and IPv6)?**
 > **Answer:** Yes, connecting via SSH using username `SSHadmin` and password `55Hadm!n2020` to both `10.0.0.1` and `2001:db8:acad:2::1` granted secure command-line access to router R1.
 
